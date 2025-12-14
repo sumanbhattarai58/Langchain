@@ -28,3 +28,10 @@ scikit-learn
 
 #deployment
 streamlit
+
+#pdf handling
+PyPDF2
+python-docx
+
+#documents loaders
+langchain-community

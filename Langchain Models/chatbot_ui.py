@@ -15,7 +15,7 @@ st.title("🤖 AI Chatbot")
 @st.cache_resource
 def load_model():
     llm = HuggingFaceEndpoint(
-        repo_id="Qwen/Qwen2.5-1.5B-Instruct",
+        repo_id="EssentialAI/rnj-1-instruct",
         task="text-generation",
         max_new_tokens=512,
         temperature=0.6,
