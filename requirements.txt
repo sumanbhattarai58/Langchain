@@ -35,3 +35,16 @@ python-docx
 
 #documents loaders
 langchain-community
+
+#Retriever tools
+faiss-cpu
+wikipedia
+chromadb
+tiktoken
+
+#youtube transcripts
+youtube-transcript-api
+pytube
+
+#language support
+langdetect
