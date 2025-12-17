@@ -80,7 +80,7 @@ if st.session_state.vector_store is not None:
     question = st.text_input(
         "Ask a new question:",
         key=f"question_{len(st.session_state.chat_history)}",
-        placeholder="e.g., What dangers do humans have from AI in the future?"
+        placeholder="e.g., What dangers will human face from AI in the future?"
     )
 
     if st.button("Get Answer"):
